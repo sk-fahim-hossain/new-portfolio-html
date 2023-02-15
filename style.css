@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio-tittle {
+    font-size: 45px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+nav {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* banner */
+.banner {
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.sub-title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    margin-top: 20px;
+    color: grey;
+}
+
+.secondary-btn {
+    border: 1px solid #FD6E0A;
+    background-color: white;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #FD6E0A;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* 
+main style */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section style */
+.about {
+    text-align: center;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.about-description {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    
+}
+.about-info>p:nth-child(2){
+    font-weight:bold;
+}
+
+/* what do i do section style */
+
+.what-do-I-do{
+    margin-top: 50px;
+}
+.section-title{
+    text-align: center;
+}
+.skill-container{
+    display:flex;
+    gap: 30px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight:700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+section{
+    margin-top: 130px;
+}
+.skill{
+    width: 267px;
+    box-shadow: 0px 6px 50px lightgrey;
+    border-radius: 10px;
+    padding: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.resume-item{
+    border-bottom: 1px solid grey;
+}
+.resume-title-main{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.resume-title{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.resume-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 20px;
+}
+.description{
+color: grey;
+margin-bottom: 20px;
+}
+.resume-item:nth-child(4){
+    border-bottom: none;
+}
+.download-cv-btn{
+    margin-top: 30px;
+text-align: center;
+}
+
+/* form section style */
+
+.form-section{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.connect-part a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+.form-description{
+    margin-bottom: 50px;
+}
+.input-container input{
+    border: none;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 48px;
+}
+.input-container textarea{
+    padding: 20px;
+    width: 300px;
+}
+.submit-btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 25px;
+    /* height: 64px; */
+    font-size: 15px;
+    color: white;
+ 
+    
+}
